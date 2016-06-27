@@ -7,43 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		229CEDEE1D218DF800D26904 /* BattleBots.h in Headers */ = {isa = PBXBuildFile; fileRef = 229CEDED1D218DF800D26904 /* BattleBots.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		229CEDF51D218DF900D26904 /* BattleBots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229CEDEA1D218DF800D26904 /* BattleBots.framework */; };
-		229CEDFA1D218DF900D26904 /* BattleBotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229CEDF91D218DF900D26904 /* BattleBotsTests.swift */; };
+		229CEE3D1D21910C00D26904 /* BattleBotsCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 229CEE3C1D21910C00D26904 /* BattleBotsCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229CEE441D21910C00D26904 /* BattleBotsCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229CEE3A1D21910C00D26904 /* BattleBotsCocoa.framework */; };
+		229CEE491D21910C00D26904 /* BattleBotsCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229CEE481D21910C00D26904 /* BattleBotsCocoaTests.swift */; };
+		229CEE651D21914800D26904 /* BattleBotsCocoaTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 229CEE641D21914800D26904 /* BattleBotsCocoaTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229CEE6C1D21914800D26904 /* BattleBotsCocoaTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229CEE621D21914800D26904 /* BattleBotsCocoaTouch.framework */; };
+		229CEE711D21914800D26904 /* BattleBotsCocoaTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229CEE701D21914800D26904 /* BattleBotsCocoaTouchTests.swift */; };
+		229CEE801D21938C00D26904 /* BattleBots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229CEE7F1D21938C00D26904 /* BattleBots.swift */; };
+		229CEE811D21939600D26904 /* BattleBots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229CEE7F1D21938C00D26904 /* BattleBots.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		229CEDF61D218DF900D26904 /* PBXContainerItemProxy */ = {
+		229CEE451D21910C00D26904 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 229CEDE11D218DF800D26904 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 229CEDE91D218DF800D26904;
-			remoteInfo = BattleBots;
+			remoteGlobalIDString = 229CEE391D21910C00D26904;
+			remoteInfo = BattleBotsCocoa;
+		};
+		229CEE6D1D21914800D26904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229CEDE11D218DF800D26904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229CEE611D21914800D26904;
+			remoteInfo = BattleBotsCocoaTouch;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		229CEDEA1D218DF800D26904 /* BattleBots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BattleBots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		229CEDED1D218DF800D26904 /* BattleBots.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleBots.h; sourceTree = "<group>"; };
-		229CEDEF1D218DF800D26904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		229CEDF41D218DF900D26904 /* BattleBotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleBotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		229CEDF91D218DF900D26904 /* BattleBotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleBotsTests.swift; sourceTree = "<group>"; };
-		229CEDFB1D218DF900D26904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229CEE3A1D21910C00D26904 /* BattleBotsCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BattleBotsCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229CEE3C1D21910C00D26904 /* BattleBotsCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleBotsCocoa.h; sourceTree = "<group>"; };
+		229CEE3E1D21910C00D26904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229CEE431D21910C00D26904 /* BattleBotsCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleBotsCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229CEE481D21910C00D26904 /* BattleBotsCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleBotsCocoaTests.swift; sourceTree = "<group>"; };
+		229CEE4A1D21910C00D26904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229CEE5C1D21912400D26904 /* BattleBotsTemp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BattleBotsTemp copy-Info.plist"; path = "/Users/andrewcarter/Projects/BattleBots/BattleBotsTemp copy-Info.plist"; sourceTree = "<absolute>"; };
+		229CEE621D21914800D26904 /* BattleBotsCocoaTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BattleBotsCocoaTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229CEE641D21914800D26904 /* BattleBotsCocoaTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleBotsCocoaTouch.h; sourceTree = "<group>"; };
+		229CEE661D21914800D26904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229CEE6B1D21914800D26904 /* BattleBotsCocoaTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleBotsCocoaTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229CEE701D21914800D26904 /* BattleBotsCocoaTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleBotsCocoaTouchTests.swift; sourceTree = "<group>"; };
+		229CEE721D21914800D26904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229CEE7F1D21938C00D26904 /* BattleBots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleBots.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		229CEDE61D218DF800D26904 /* Frameworks */ = {
+		229CEE361D21910C00D26904 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		229CEDF11D218DF900D26904 /* Frameworks */ = {
+		229CEE401D21910C00D26904 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229CEDF51D218DF900D26904 /* BattleBots.framework in Frameworks */,
+				229CEE441D21910C00D26904 /* BattleBotsCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229CEE5E1D21914800D26904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229CEE681D21914800D26904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229CEE6C1D21914800D26904 /* BattleBotsCocoaTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,87 +88,155 @@
 		229CEDE01D218DF800D26904 = {
 			isa = PBXGroup;
 			children = (
-				229CEDEC1D218DF800D26904 /* BattleBots */,
-				229CEDF81D218DF900D26904 /* BattleBotsTests */,
+				229CEE7F1D21938C00D26904 /* BattleBots.swift */,
+				229CEE3B1D21910C00D26904 /* BattleBotsCocoa */,
+				229CEE471D21910C00D26904 /* BattleBotsCocoaTests */,
+				229CEE631D21914800D26904 /* BattleBotsCocoaTouch */,
+				229CEE6F1D21914800D26904 /* BattleBotsCocoaTouchTests */,
 				229CEDEB1D218DF800D26904 /* Products */,
+				229CEE5C1D21912400D26904 /* BattleBotsTemp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		229CEDEB1D218DF800D26904 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				229CEDEA1D218DF800D26904 /* BattleBots.framework */,
-				229CEDF41D218DF900D26904 /* BattleBotsTests.xctest */,
+				229CEE3A1D21910C00D26904 /* BattleBotsCocoa.framework */,
+				229CEE431D21910C00D26904 /* BattleBotsCocoaTests.xctest */,
+				229CEE621D21914800D26904 /* BattleBotsCocoaTouch.framework */,
+				229CEE6B1D21914800D26904 /* BattleBotsCocoaTouchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		229CEDEC1D218DF800D26904 /* BattleBots */ = {
+		229CEE3B1D21910C00D26904 /* BattleBotsCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				229CEDED1D218DF800D26904 /* BattleBots.h */,
-				229CEDEF1D218DF800D26904 /* Info.plist */,
+				229CEE3C1D21910C00D26904 /* BattleBotsCocoa.h */,
+				229CEE3E1D21910C00D26904 /* Info.plist */,
 			);
-			path = BattleBots;
+			path = BattleBotsCocoa;
 			sourceTree = "<group>";
 		};
-		229CEDF81D218DF900D26904 /* BattleBotsTests */ = {
+		229CEE471D21910C00D26904 /* BattleBotsCocoaTests */ = {
 			isa = PBXGroup;
 			children = (
-				229CEDF91D218DF900D26904 /* BattleBotsTests.swift */,
-				229CEDFB1D218DF900D26904 /* Info.plist */,
+				229CEE481D21910C00D26904 /* BattleBotsCocoaTests.swift */,
+				229CEE4A1D21910C00D26904 /* Info.plist */,
 			);
-			path = BattleBotsTests;
+			path = BattleBotsCocoaTests;
+			sourceTree = "<group>";
+		};
+		229CEE631D21914800D26904 /* BattleBotsCocoaTouch */ = {
+			isa = PBXGroup;
+			children = (
+				229CEE641D21914800D26904 /* BattleBotsCocoaTouch.h */,
+				229CEE661D21914800D26904 /* Info.plist */,
+			);
+			path = BattleBotsCocoaTouch;
+			sourceTree = "<group>";
+		};
+		229CEE6F1D21914800D26904 /* BattleBotsCocoaTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				229CEE701D21914800D26904 /* BattleBotsCocoaTouchTests.swift */,
+				229CEE721D21914800D26904 /* Info.plist */,
+			);
+			path = BattleBotsCocoaTouchTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		229CEDE71D218DF800D26904 /* Headers */ = {
+		229CEE371D21910C00D26904 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229CEDEE1D218DF800D26904 /* BattleBots.h in Headers */,
+				229CEE3D1D21910C00D26904 /* BattleBotsCocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229CEE5F1D21914800D26904 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229CEE651D21914800D26904 /* BattleBotsCocoaTouch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		229CEDE91D218DF800D26904 /* BattleBots */ = {
+		229CEE391D21910C00D26904 /* BattleBotsCocoa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 229CEDFE1D218DF900D26904 /* Build configuration list for PBXNativeTarget "BattleBots" */;
+			buildConfigurationList = 229CEE4B1D21910C00D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoa" */;
 			buildPhases = (
-				229CEDE51D218DF800D26904 /* Sources */,
-				229CEDE61D218DF800D26904 /* Frameworks */,
-				229CEDE71D218DF800D26904 /* Headers */,
-				229CEDE81D218DF800D26904 /* Resources */,
+				229CEE351D21910C00D26904 /* Sources */,
+				229CEE361D21910C00D26904 /* Frameworks */,
+				229CEE371D21910C00D26904 /* Headers */,
+				229CEE381D21910C00D26904 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BattleBots;
-			productName = BattleBots;
-			productReference = 229CEDEA1D218DF800D26904 /* BattleBots.framework */;
+			name = BattleBotsCocoa;
+			productName = BattleBotsCocoa;
+			productReference = 229CEE3A1D21910C00D26904 /* BattleBotsCocoa.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		229CEDF31D218DF900D26904 /* BattleBotsTests */ = {
+		229CEE421D21910C00D26904 /* BattleBotsCocoaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 229CEE011D218DF900D26904 /* Build configuration list for PBXNativeTarget "BattleBotsTests" */;
+			buildConfigurationList = 229CEE4E1D21910C00D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoaTests" */;
 			buildPhases = (
-				229CEDF01D218DF900D26904 /* Sources */,
-				229CEDF11D218DF900D26904 /* Frameworks */,
-				229CEDF21D218DF900D26904 /* Resources */,
+				229CEE3F1D21910C00D26904 /* Sources */,
+				229CEE401D21910C00D26904 /* Frameworks */,
+				229CEE411D21910C00D26904 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				229CEDF71D218DF900D26904 /* PBXTargetDependency */,
+				229CEE461D21910C00D26904 /* PBXTargetDependency */,
 			);
-			name = BattleBotsTests;
-			productName = BattleBotsTests;
-			productReference = 229CEDF41D218DF900D26904 /* BattleBotsTests.xctest */;
+			name = BattleBotsCocoaTests;
+			productName = BattleBotsCocoaTests;
+			productReference = 229CEE431D21910C00D26904 /* BattleBotsCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		229CEE611D21914800D26904 /* BattleBotsCocoaTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229CEE731D21914800D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoaTouch" */;
+			buildPhases = (
+				229CEE5D1D21914800D26904 /* Sources */,
+				229CEE5E1D21914800D26904 /* Frameworks */,
+				229CEE5F1D21914800D26904 /* Headers */,
+				229CEE601D21914800D26904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleBotsCocoaTouch;
+			productName = BattleBotsCocoaTouch;
+			productReference = 229CEE621D21914800D26904 /* BattleBotsCocoaTouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		229CEE6A1D21914800D26904 /* BattleBotsCocoaTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229CEE761D21914800D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoaTouchTests" */;
+			buildPhases = (
+				229CEE671D21914800D26904 /* Sources */,
+				229CEE681D21914800D26904 /* Frameworks */,
+				229CEE691D21914800D26904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229CEE6E1D21914800D26904 /* PBXTargetDependency */,
+			);
+			name = BattleBotsCocoaTouchTests;
+			productName = BattleBotsCocoaTouchTests;
+			productReference = 229CEE6B1D21914800D26904 /* BattleBotsCocoaTouchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -146,13 +249,26 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = WillowTree;
 				TargetAttributes = {
-					229CEDE91D218DF800D26904 = {
+					229CEE391D21910C00D26904 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J5DZUJM8FC;
+						DevelopmentTeamName = "Andrew Carter";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					229CEE421D21910C00D26904 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = J5DZUJM8FC;
 						DevelopmentTeamName = "Andrew Carter";
 						ProvisioningStyle = Automatic;
 					};
-					229CEDF31D218DF900D26904 = {
+					229CEE611D21914800D26904 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J5DZUJM8FC;
+						DevelopmentTeamName = "Andrew Carter";
+						ProvisioningStyle = Automatic;
+					};
+					229CEE6A1D21914800D26904 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = J5DZUJM8FC;
 						DevelopmentTeamName = "Andrew Carter";
@@ -172,21 +288,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				229CEDE91D218DF800D26904 /* BattleBots */,
-				229CEDF31D218DF900D26904 /* BattleBotsTests */,
+				229CEE391D21910C00D26904 /* BattleBotsCocoa */,
+				229CEE421D21910C00D26904 /* BattleBotsCocoaTests */,
+				229CEE611D21914800D26904 /* BattleBotsCocoaTouch */,
+				229CEE6A1D21914800D26904 /* BattleBotsCocoaTouchTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		229CEDE81D218DF800D26904 /* Resources */ = {
+		229CEE381D21910C00D26904 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		229CEDF21D218DF900D26904 /* Resources */ = {
+		229CEE411D21910C00D26904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229CEE601D21914800D26904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229CEE691D21914800D26904 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,28 +328,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		229CEDE51D218DF800D26904 /* Sources */ = {
+		229CEE351D21910C00D26904 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229CEE801D21938C00D26904 /* BattleBots.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		229CEDF01D218DF900D26904 /* Sources */ = {
+		229CEE3F1D21910C00D26904 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229CEDFA1D218DF900D26904 /* BattleBotsTests.swift in Sources */,
+				229CEE491D21910C00D26904 /* BattleBotsCocoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229CEE5D1D21914800D26904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229CEE811D21939600D26904 /* BattleBots.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229CEE671D21914800D26904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229CEE711D21914800D26904 /* BattleBotsCocoaTouchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		229CEDF71D218DF900D26904 /* PBXTargetDependency */ = {
+		229CEE461D21910C00D26904 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 229CEDE91D218DF800D26904 /* BattleBots */;
-			targetProxy = 229CEDF61D218DF900D26904 /* PBXContainerItemProxy */;
+			target = 229CEE391D21910C00D26904 /* BattleBotsCocoa */;
+			targetProxy = 229CEE451D21910C00D26904 /* PBXContainerItemProxy */;
+		};
+		229CEE6E1D21914800D26904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229CEE611D21914800D26904 /* BattleBotsCocoaTouch */;
+			targetProxy = 229CEE6D1D21914800D26904 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -317,57 +471,134 @@
 			};
 			name = Release;
 		};
-		229CEDFF1D218DF900D26904 /* Debug */ = {
+		229CEE4C1D21910C00D26904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = BattleBotsCocoa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBotsCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		229CEE4D1D21910C00D26904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = BattleBotsCocoa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBotsCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		229CEE4F1D21910C00D26904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BattleBotsCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBotsCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		229CEE501D21910C00D26904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BattleBotsCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBotsCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		229CEE741D21914800D26904 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BattleBots/Info.plist;
+				INFOPLIST_FILE = BattleBotsCocoaTouch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBots;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBotsCocoaTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		229CEE001D218DF900D26904 /* Release */ = {
+		229CEE751D21914800D26904 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BattleBots/Info.plist;
+				INFOPLIST_FILE = BattleBotsCocoaTouch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBots;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBotsCocoaTouch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		229CEE021D218DF900D26904 /* Debug */ = {
+		229CEE771D21914800D26904 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = BattleBotsTests/Info.plist;
+				INFOPLIST_FILE = BattleBotsCocoaTouchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBotsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBotsCocoaTouchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		229CEE031D218DF900D26904 /* Release */ = {
+		229CEE781D21914800D26904 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = BattleBotsTests/Info.plist;
+				INFOPLIST_FILE = BattleBotsCocoaTouchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBotsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowtreeapps.BattleBotsCocoaTouchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -385,19 +616,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		229CEDFE1D218DF900D26904 /* Build configuration list for PBXNativeTarget "BattleBots" */ = {
+		229CEE4B1D21910C00D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				229CEDFF1D218DF900D26904 /* Debug */,
-				229CEE001D218DF900D26904 /* Release */,
+				229CEE4C1D21910C00D26904 /* Debug */,
+				229CEE4D1D21910C00D26904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		229CEE011D218DF900D26904 /* Build configuration list for PBXNativeTarget "BattleBotsTests" */ = {
+		229CEE4E1D21910C00D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				229CEE021D218DF900D26904 /* Debug */,
-				229CEE031D218DF900D26904 /* Release */,
+				229CEE4F1D21910C00D26904 /* Debug */,
+				229CEE501D21910C00D26904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		229CEE731D21914800D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229CEE741D21914800D26904 /* Debug */,
+				229CEE751D21914800D26904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		229CEE761D21914800D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoaTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229CEE771D21914800D26904 /* Debug */,
+				229CEE781D21914800D26904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

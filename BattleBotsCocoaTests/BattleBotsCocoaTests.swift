@@ -1,15 +1,15 @@
 //
-//  BattleBotsTests.swift
-//  BattleBotsTests
+//  BattleBotsCocoaTests.swift
+//  BattleBotsCocoaTests
 //
 //  Created by Andrew Carter on 6/27/16.
 //  Copyright © 2016 WillowTree. All rights reserved.
 //
 
 import XCTest
-@testable import BattleBots
+@testable import BattleBotsCocoa
 
-class BattleBotsTests: XCTestCase {
+class BattleBotsCocoaTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
