@@ -41,7 +41,6 @@
 		229CEE431D21910C00D26904 /* BattleBotsCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleBotsCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		229CEE481D21910C00D26904 /* BattleBotsCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleBotsCocoaTests.swift; sourceTree = "<group>"; };
 		229CEE4A1D21910C00D26904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		229CEE5C1D21912400D26904 /* BattleBotsTemp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BattleBotsTemp copy-Info.plist"; path = "/Users/andrewcarter/Projects/BattleBots/BattleBotsTemp copy-Info.plist"; sourceTree = "<absolute>"; };
 		229CEE621D21914800D26904 /* BattleBotsCocoaTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BattleBotsCocoaTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		229CEE641D21914800D26904 /* BattleBotsCocoaTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleBotsCocoaTouch.h; sourceTree = "<group>"; };
 		229CEE661D21914800D26904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,7 +93,6 @@
 				229CEE631D21914800D26904 /* BattleBotsCocoaTouch */,
 				229CEE6F1D21914800D26904 /* BattleBotsCocoaTouchTests */,
 				229CEDEB1D218DF800D26904 /* Products */,
-				229CEE5C1D21912400D26904 /* BattleBotsTemp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -623,6 +621,7 @@
 				229CEE4D1D21910C00D26904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		229CEE4E1D21910C00D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoaTests" */ = {
 			isa = XCConfigurationList;
@@ -631,6 +630,7 @@
 				229CEE501D21910C00D26904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		229CEE731D21914800D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoaTouch" */ = {
 			isa = XCConfigurationList;
@@ -639,6 +639,7 @@
 				229CEE751D21914800D26904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		229CEE761D21914800D26904 /* Build configuration list for PBXNativeTarget "BattleBotsCocoaTouchTests" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +648,7 @@
 				229CEE781D21914800D26904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
